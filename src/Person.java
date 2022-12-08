@@ -25,10 +25,7 @@ public class Person {
   public void setNumberOfTickets(int numberOfTickets) {
     this.numberOfTickets = numberOfTickets;
   }
-
-  public boolean contains(String plum) {
-    return false;
-  }
 }
+
 
 

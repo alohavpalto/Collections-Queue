@@ -17,15 +17,13 @@ public class Main {
 
   public static void main(String[] args) {
     Queue<Person> queue = new LinkedList<>();
-
     List<Person> people = generateClients();
     for (Person person : people) {
       queue.offer(person);
     }
     while (!queue.isEmpty()) {
       Person person = queue.poll();
-
-      if (person.numberOfTickets <=0){
+      if (person.numberOfTickets <= 0) {
         System.out.println(
             person.getName() + " " + person.getSurname() + " Нет билета");
         continue;

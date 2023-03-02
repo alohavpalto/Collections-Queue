@@ -1,3 +1,5 @@
+import java.util.List;
+
 public class Person {
 
   protected String name;
@@ -9,6 +11,7 @@ public class Person {
     this.surname = surname;
     this.numberOfTickets = numberOfTickets;
   }
+
 
   public String getName() {
     return name;
